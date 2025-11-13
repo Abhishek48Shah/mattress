@@ -1,0 +1,15 @@
+@import "tailwindcss";
+:root {
+  /* Ocean Serenity Palette – Named Roles */
+  --primary:   #001F3F;  /* Navy – Headers, CTAs, trust */
+  --secondary: #87CEEB;  /* Sky Blue – Accents, hovers, highlights */
+  --background:#F0F8FF;  /* Alice White – Page/cards background */
+  --surface:   #FFFFFF;  /* Pure White – Cards, modals */
+  --text:      #6B7280;  /* Gray – Body text, subtle details */
+  --on-primary:#F0F8FF;  /* Alice on Navy – Text on primary */
+  --on-secondary:#001F3F;/* Navy on Sky – Text on secondary */
+}
+
+body {
+  background: var(--background);
+}
